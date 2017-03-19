@@ -13,7 +13,7 @@
         <name>ApexPage</name>
     </types>
     <types>
-        <members>new_price_optimizer_entity_c__c</members>
+        <members>new_price_optimizer_entity__c</members>
         <name>CustomObject</name>
     </types>
     <types>
