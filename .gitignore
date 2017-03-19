@@ -1,0 +1,6 @@
+# ignore ant-rd files if used
+ant-salesforce.jar
+build.properties.sample
+build.properties
+build.xml
+fix-manifest

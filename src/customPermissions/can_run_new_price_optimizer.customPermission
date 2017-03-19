@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Tests protected custom permission in Feature Management pilot</description>
+    <label>can_run_new_price_optimizer</label>
+    <protected>true</protected>
+</CustomPermission>

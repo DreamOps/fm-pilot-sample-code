@@ -1,0 +1,14 @@
+<apex:page controller="FeatureConsoleController">
+    <apex:form >
+        <apex:pageBlock title="Available Features">
+            <apex:pageBlockTable var="f" value="{!features}">
+                <apex:column headerValue="Enabled" width="30">
+                    <apex:inputCheckbox value="{!f.enabled}" rendered="{!f.activated}"/>
+                </apex:column>
+                <apex:column value="{!f.name}" rendered="{!f.activated}"
+                             headerValue="Name"/>
+            </apex:pageBlockTable>
+            <apex:commandButton action="{!save}" value="Save"/>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

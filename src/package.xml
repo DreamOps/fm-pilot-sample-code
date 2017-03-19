@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nu-fm-pilot</fullName>
+    <types>
+        <members>FeatureConsoleAPI</members>
+        <members>FeatureConsoleAPITest</members>
+        <members>FeatureConsoleController</members>
+        <members>FeatureConsoleControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>FeatureConsole</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>new_price_optimizer_entity_c__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>can_run_new_price_optimizer</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>price_optimizer_enabled</members>
+        <members>price_optimizer_permitted</members>
+        <name>FeatureParameterBoolean</name>
+    </types>
+    <types>
+        <members>num_of_price_optimizer_runs</members>
+        <name>FeatureParameterInteger</name>
+    </types>
+    <types>
+        <members>new_price_optimizer_entity_c__c-new_price_optimizer_entity%5F%5Fc Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>39.0</version>
+</Package>
